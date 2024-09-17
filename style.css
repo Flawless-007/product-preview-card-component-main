@@ -8,57 +8,102 @@ body {
 .border {
     border: .5px solid transparent;
     height: 600px;
-    width: 600px;
+    width: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .product {
-    height: 500px;
+    height: 450px;
     width: 500px;
     border: 2px solid transparent;
-    border-radius: px;
-
 }
 
 .text {
-    background-color: whitesmoke;
+    background-color: white;
     border: 2px solid transparent;
-    height: 500px;
-    width: 600px;
+    height: 450px;
+    width: 500px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-}
-img {
-    width: 300px;
-    height: 500px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-h3 {
-    font-family: monospace;
-}
-.text {
     color: hsl(228, 12%, 48%);
     letter-spacing: 2px;
     padding-left: 25px;
 }
-h1 {
-    color: black;
-    font-weight: 700;
-    margin-bottom: 15%;
+img {
+    width: 350px;
+    height: 450px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-.no {
-    color: hsl(228, 12%, 48%);
-    position: absolute;
-    top: 15%;
-    padding-left: 5%;
-    text-decoration: line-through;
-    font-size: 20px;
+h3 {
+    color: hsl(158, 36%, 37%);
+    font-family: monospace;
+    font-weight: lighter;
+}
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-size: 2.8rem;
+    margin-bottom: 5%;
+}
+p {
+    color: hsl(158, 36%, 37%);
+    font-weight: lighter;
 }
 .yes {
-    color: green;
+    color: hsl(158, 36%, 37%);
     position: relative;
     font-weight: bolder;
     font-size: 30px;
+    margin-bottom: 20px;
+}
+.no {
+    color: hsl(350, 90%, 50%);
+    position: absolute;
+    top: 28%;
+    padding-left: 5%;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.add {
+    width: 90%;
+    height: 50px;
+    color: whitesmoke;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    transition: background-color .2s ease, transform .3s ease;
+}
+.cart {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+}
+.texto {
+    color: whitesmoke;
+    text-decoration:u;
+    font-size: 15px;
+    margin-bottom: px;
+    font-weight: bolder;
+    position: relative;
+    padding-left: 25px;
+    bottom: px;
+}
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+@media screen and (max-width: 576px;) {
+    .border {
+        width: 20rem;
+        height: 45rem;
+    
+    }
+    .border img {
+        margin: 2rem 0;
+    }
+
 }
