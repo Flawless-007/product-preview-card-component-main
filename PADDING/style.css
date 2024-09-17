@@ -1,0 +1,64 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.border {
+    border: .5px solid transparent;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product {
+    height: 500px;
+    width: 500px;
+    border: 2px solid transparent;
+    border-radius: px;
+
+}
+
+.text {
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+    height: 500px;
+    width: 600px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+img {
+    width: 300px;
+    height: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+h3 {
+    font-family: monospace;
+}
+.text {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
+    padding-left: 25px;
+}
+h1 {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 15%;
+}
+.no {
+    color: hsl(228, 12%, 48%);
+    position: absolute;
+    top: 15%;
+    padding-left: 5%;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.yes {
+    color: green;
+    position: relative;
+    font-weight: bolder;
+    font-size: 30px;
+}
